@@ -1,4 +1,16 @@
 {
+  "name": "@jingle-market/react-scripts",
+  "version": "0.0.4",
+  "homepage": "https://github.com/browar777/create-react-app#readme",
+  "license": "MIT",
+  "optionalDependencies": {
+    "fsevents": "1.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browar777/create-react-app.git"
+  },
+  "types": "./lib/react-app.d.ts",
   "bin": {
     "react-scripts": "./bin/react-scripts.js"
   },
@@ -55,7 +67,6 @@
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
-    "styled-components": "^4.2.0",
     "terser-webpack-plugin": "1.2.2",
     "url-loader": "1.1.2",
     "webpack": "4.28.3",
@@ -80,17 +91,5 @@
     "template",
     "template-typescript",
     "utils"
-  ],
-  "homepage": "https://github.com/browar777/create-react-app#readme",
-  "license": "MIT",
-  "name": "@jingle-market/react-scripts",
-  "optionalDependencies": {
-    "fsevents": "1.2.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/browar777/create-react-app.git"
-  },
-  "types": "./lib/react-app.d.ts",
-  "version": "0.0.3"
+  ]
 }
