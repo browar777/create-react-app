@@ -1,14 +1,14 @@
 {
-  "name": "react-scripts",
-  "version": "2.1.8",
-  "description": "Configuration and scripts for Create React App.",
-  "repository": "facebook/create-react-app",
+  "name": "@jingle-market/react-scripts",
+  "version": "0.0.1",
+  "description": "Jingle custom configuration and scripts for Create React App",
+  "repository": "browar777/create-react-app",
   "license": "MIT",
   "engines": {
     "node": ">=8.10"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/browar777/create-react-app/issues"
   },
   "files": [
     "bin",
@@ -33,6 +33,7 @@
     "babel-jest": "24.5.0",
     "babel-loader": "8.0.5",
     "babel-plugin-named-asset-import": "^0.3.1",
+    "babel-plugin-styled-components": "^1.10.0",
     "babel-preset-react-app": "^7.0.2",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
     "css-loader": "2.1.1",
@@ -65,6 +66,7 @@
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
+    "styled-components": "^4.2.0",
     "terser-webpack-plugin": "1.2.3",
     "url-loader": "1.1.2",
     "webpack": "4.29.6",
