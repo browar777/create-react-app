@@ -304,7 +304,7 @@ module.exports = function(webpackEnv) {
         // First, run the linter.
         // It's important to do this before Babel processes the JS.
         {
-          test: /\.(js|mjs|jsx|ts|tsx)$/,
+          test: /\.(js|mjs|jsx)$/,
           enforce: 'pre',
           use: [
             {
@@ -372,7 +372,6 @@ module.exports = function(webpackEnv) {
                 ),
                 // @remove-on-eject-end
                 plugins: [
-                  require.resolve('babel-plugin-styled-components'),
                   [
                     require.resolve('babel-plugin-named-asset-import'),
                     {
@@ -527,7 +526,6 @@ module.exports = function(webpackEnv) {
           },
           isEnvProduction
             ? {
-                filename: 'index.handlebars',
                 minify: {
                   removeComments: true,
                   collapseWhitespace: true,
@@ -625,6 +623,7 @@ module.exports = function(webpackEnv) {
           tsconfig: paths.appTsConfig,
           reportFiles: [
             '**',
+            '!**/*.json',
             '!**/__tests__/**',
             '!**/?(*.)(spec|test).*',
             '!**/src/setupProxy.*',
@@ -643,7 +642,6 @@ module.exports = function(webpackEnv) {
       dgram: 'empty',
       dns: 'mock',
       fs: 'empty',
-      http2: 'empty',
       net: 'empty',
       tls: 'empty',
       child_process: 'empty',
