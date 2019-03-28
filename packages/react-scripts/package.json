@@ -72,7 +72,10 @@
     "webpack": "4.28.3",
     "webpack-dev-server": "3.1.14",
     "webpack-manifest-plugin": "2.0.4",
-    "workbox-webpack-plugin": "3.6.3"
+    "workbox-webpack-plugin": "3.6.3",
+    "tslint": "^5.7.0",
+    "tslint-config-prettier": "^1.10.0",
+    "tslint-react": "^3.2.0"
   },
   "deprecated": false,
   "description": "Jingle custom configuration and scripts for react-scripts.",
